@@ -31,7 +31,7 @@ ingress:
           pathType: ImplementationSpecific
           serviceName: hello-k8s
           servicePort: 5000
-  tls:
-    - hosts:
-        - demoapp.ndthang.live
-      secretName: hello-k8s-ingress
+  # tls:
+  #   - hosts:
+  #       - demoapp.ndthang.live
+  #     secretName: hello-k8s-ingress
