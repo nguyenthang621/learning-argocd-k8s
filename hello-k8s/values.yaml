@@ -26,8 +26,8 @@ resources:
 containerPort: 5000
 
 ingress:
-  enabled: false
-  className: ""
+  enabled: true
+  className: "nginx"
   annotations: {}
-  hosts: []
+  hosts: ["demoapp.ndthang.live"]
   tls: []
