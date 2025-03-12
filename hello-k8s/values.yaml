@@ -1,5 +1,5 @@
 namespace:
-  name: default
+  name: argocd-cicd
 
 service:
   type: ClusterIP
