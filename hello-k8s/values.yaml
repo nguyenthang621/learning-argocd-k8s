@@ -9,8 +9,8 @@ service:
     https: 443
 
 image:
-  repository: tonykien2012/hello-k8s
-  tag: '3.0'
+  repository: nthang621/learn-argocd-k8s
+  tag: "v1"
   pullPolicy: IfNotPresent
 
 replicaCount: 1
@@ -24,7 +24,6 @@ resources:
     memory: 128Mi
 
 containerPort: 5000
-
 
 ingress:
   enabled: false

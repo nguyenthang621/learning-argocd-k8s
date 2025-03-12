@@ -4,7 +4,7 @@ metadata:
   labels:
     app: hello-k8s
   name: hello-k8s
-  namespace: default 
+  namespace: default
 spec:
   replicas: 3
   selector:
@@ -21,12 +21,12 @@ spec:
         app: hello-k8s
     spec:
       containers:
-      - image: tonykien2012/hello-k8s:4.0 
-        imagePullPolicy: Always
-        name: hello-k8s
-        ports:
-        - containerPort: 5000
-        resources:
-          requests:
-            cpu: 50m
-            memory: 256Mi
+        - image: nthang621/learn-argocd-k8s:v1
+          imagePullPolicy: Always
+          name: hello-k8s
+          ports:
+            - containerPort: 5000
+          resources:
+            requests:
+              cpu: 50m
+              memory: 256Mi

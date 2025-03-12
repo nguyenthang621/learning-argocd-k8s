@@ -31,4 +31,4 @@ jobs:
           file: ./project/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: tonykien2012/hello-k8s:4.0
+          tags: nthang621/learn-argocd-k8s:v1
